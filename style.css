@@ -1,0 +1,57 @@
+#interface {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+#topInterface {
+    height: 10vh;
+    background-color: orange;
+}
+
+#wrapper {
+    background-color: pink;
+    width: 80%;
+    margin-left: 30%;
+}
+
+.topInterfaceItem {
+    display: block;
+    height: 10vh;
+    width: 10vh;
+    text-align: center;
+
+    float: left;
+    padding: 0 5%;
+    margin-top: 2%;
+}
+
+.topInterfaceItem p {
+    float: right;
+    font-family: monospace;
+    font-size: xxx-large;
+    margin: inherit;
+
+}
+.topInterfaceItem img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+
+#rulesTitle {
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+    float: right;
+    font-size: xxx-large;
+    color: red;
+    font-family: monospace;
+}
+
+#bottomInterface {
+    background-color: gray;
+    height: 80vh;
+}
+
