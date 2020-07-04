@@ -3,27 +3,33 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
     <div id="interface">
         <div id="topInterface">
             <div id="wrapper">
-                <div class="topInterfaceItem" id="health">
+                <div class="topInterfaceItem">
                     <img src="images/health.jpeg" alt="Health">
-                    <p>0</p>
+                    <span id="health">0</span>
 
                 </div>
-                <div class="topInterfaceItem" id="points">
+                <div class="topInterfaceItem">
                     <img src="images/points.jpg" alt="Points">
-                    <p>0</p>
+                    <span id="points">0</span>
 
                 </div>
                 <div class="topInterfaceItem" id="time">
                     <img src="images/timer.jpg" alt="Timer">
-                    <p>0</p>
+                    <div id="timeForm">
+                        <span id="seconds">0</span>
 
+
+
+
+
+
+                    </div>
                 </div>
             </div>
             <div id="rulesTitle">
@@ -34,7 +40,12 @@
         <div id="bottomInterface">
 
             <div id="leftBand"></div>
-            <div id="middleBand"></div>
+            <div id="middleBand">
+                <div id="hero">
+                    <img src="images/hero.jpeg" alt="Hero" class="character" id="heroImg">
+                </div>
+
+            </div>
             <div id="rightBand">
                 <div id="rules">
                     <div class="rule" id="rule1">
@@ -51,7 +62,7 @@
                     </div>
                 </div>
                 <div id="startButton">
-                    <button class="button" type="button">START</button>
+                    <button class="button" type="button" onclick="myTimer= setInterval(startGame,1000)">START</button>
                 </div>
             </div>
 
@@ -59,5 +70,5 @@
         </div>
     </div>
 </body>
-
+<script type="text/javascript" src="script.js"></script>
 </html>

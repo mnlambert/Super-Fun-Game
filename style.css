@@ -2,6 +2,9 @@ body {
     background-color: orange;
 }
 
+span {
+    color: white;
+}
 #interface {
 
     width: 100vw;
@@ -31,13 +34,20 @@ body {
     margin-top: 2%;
 }
 
-.topInterfaceItem p {
+.topInterfaceItem span {
     float: right;
     font-family: monospace;
     font-size: xxx-large;
     margin: inherit;
+    display: inline;
 
 }
+
+#timeForm {
+    position: absolute;
+    display: inline;
+}
+
 .topInterfaceItem img {
     width: 60px;
     height: 60px;
@@ -84,6 +94,18 @@ background-color: darkgray;
     right: 20%;
     border: 2px solid red;
     border-radius: 5px;
+}
+
+.character {
+    width: 150px;
+    height: 150px;
+
+}
+
+#heroImg {
+    left: 180px;
+    bottom: 180px;
+    position: relative;
 }
 
 #rightBand {
