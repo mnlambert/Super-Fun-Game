@@ -86,8 +86,8 @@ span {
 
 #middleBand {
 background-color: darkgray;
-    width: 70%;
-    height: inherit;
+    width: 800px;
+    height: 800px;
     float: left;
     display: inline;
     position: absolute;
@@ -97,15 +97,15 @@ background-color: darkgray;
 }
 
 .character {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
 
 }
 
 #heroImg {
     left: 180px;
     bottom: 180px;
-    position: relative;
+    position: absolute;
 }
 
 #rightBand {
