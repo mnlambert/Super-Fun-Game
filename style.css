@@ -108,6 +108,22 @@ background-color: darkgray;
     position: absolute;
 }
 
+.points {
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.enemies {
+    width: 85px;
+    height: 85px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
 #rightBand {
 
     height: 80vh;
